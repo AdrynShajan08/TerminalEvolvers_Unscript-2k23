@@ -317,16 +317,11 @@ def home():
         file.save("uploads/"+filename)
         res=brisque(f'uploads/{filename}')
         ans=None
-        if res > 105:
-            ans = "Very Bad Quality"
-        elif 95 < res < 105:
-            ans = "Bad Quality"
-        elif 85 < res < 95:
-            ans = "Good Quality"
-        elif 85 > res:
-            ans = "Very Good Quality"
-        print(ans)
         features=preprocessing(f'uploads/{filename}')
+        model=pickle.load(open('pickledmodel1.pkl','rb'))
+        prediction = model.predict([features])
+        print(ans)
+        
 
         return render_template('home.html',rest=True,ans=ans,features=features)
     return render_template('home.html')
