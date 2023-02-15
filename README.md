@@ -17,7 +17,7 @@ This project uses
 * for back-end:
   * `Flask`
 * for prediction model:<br>
-  * ensemble based Random forest
+  * `ensemble based Random forest`
 * for dataset:
   * `Curated datasets from multiple sources` 
 * for deployement:
