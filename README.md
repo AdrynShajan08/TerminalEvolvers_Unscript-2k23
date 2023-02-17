@@ -19,6 +19,7 @@ This project uses
 * for prediction model:<br>
   * `ensemble based Random forest`
 * for dataset:
+  * `Dataset alrady provided at the competetion` 
   * `Curated datasets from multiple sources` 
 * for deployement:
   * `Vercel`
