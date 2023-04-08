@@ -1,6 +1,6 @@
 # TerminalEvolvers_Unscript-2k23
 Unscript 2k23 Hackathon repository
-# **ScaGenius**
+# **ScanGenius**
 
 ## A project made in <u>Unscript</u> 2k23 by team Terminal Evolvers
 
