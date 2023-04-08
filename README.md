@@ -2,10 +2,10 @@
 Unscript 2k23 Hackathon repository
 # **ScanGenius**
 
-## A project made in <u>Unscript</u> 2k23 by team Terminal Evolvers
+## A project made in <u>Unscript</u> 2k23 by team Terminal_Evolvers
 
 
-### Project Description
+### The aim of this project is to create a web app that detects whether the input image is of quality adequate enough to pass it through Amazon Textract without getting errors. We have used multiple parameters to ascertain this, one of them being BRISQUE. 
 
 
 ### Contents of this repository
